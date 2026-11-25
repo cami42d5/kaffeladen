@@ -97,16 +97,17 @@
     </script>
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Spring til indholdet</a>
     <!-- Header og navigation -->
     <header class="site-header">
         <div class="container header-content">
-            <a class="brand" href="#top" aria-label="Kaffeladen – til forsiden">Kaffeladen</a>
+            <a class="brand" href="#main-content" aria-label="Kaffeladen – til forsiden">Kaffeladen</a>
             <nav class="site-nav" aria-label="Hovednavigation">
                 <a href="#om">Om os</a><a href="#menu">Menu</a><a href="#oplevelser">Hygge hos os</a><a href="#galleri">Galleri</a><a href="#kontakt">Kontakt</a>
             </nav>
         </div>
     </header>
-    <main id="top">
+    <main id="main-content" tabindex="-1">
         <!-- Hero -->
         <section class="hero" aria-labelledby="hero-title">
             <div class="container hero-grid">
@@ -167,9 +168,15 @@
             <div class="container"><div class="section-heading"><div><p class="eyebrow">Små glimt</p><h2 id="galleri-title">Stemninger fra laden</h2></div><p>Varme kopper, gode kager og hjørner, hvor der er let at falde til.</p></div>
                 <div class="gallery">
                     <img class="gallery-large" src="images/Kaffeladen.png" alt="Kaffeladens indretning med varme farver og siddepladser">
-                    <img src="https://placehold.co/800x600/E4C9A8/59371F?text=Kaffe+p%C3%A5+baren" alt="Eksempelbillede af kaffe på baren">
-                    <img src="https://placehold.co/800x600/D5B07B/59371F?text=Kage+i+disken" alt="Eksempelbillede af kage i disken">
-                    <img src="https://placehold.co/800x600/C3915D/FFF8EC?text=Br%C3%A6tspil+og+t%C3%A6pper" alt="Eksempelbillede af brætspil og tæpper">
+                    <figure class="gallery-card gallery-card-coffee">
+                        <figcaption>Kaffe på baren</figcaption>
+                    </figure>
+                    <figure class="gallery-card gallery-card-cake">
+                        <figcaption>Kage i disken</figcaption>
+                    </figure>
+                    <figure class="gallery-card gallery-card-games">
+                        <figcaption>Brætspil og tæpper</figcaption>
+                    </figure>
                 </div>
             </div>
         </section>
@@ -222,6 +229,6 @@
         </section>
     </main>
     <!-- Footer -->
-    <footer class="site-footer"><div class="container footer-content"><p>© 2026 Kaffeladen · Fiktiv kaffebar</p><nav aria-label="Eksempellinks til sociale medier"><a href="#top">Instagram (eksempel)</a><a href="#top">Facebook (eksempel)</a></nav></div></footer>
+    <footer class="site-footer"><div class="container footer-content"><p>© 2026 Kaffeladen · Fiktiv kaffebar</p><p>Instagram og Facebook (eksempler)</p></div></footer>
 </body>
 </html>
