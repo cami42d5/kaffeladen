@@ -58,3 +58,8 @@ blockquote { margin: 0 0 var(--space-sm); color: var(--brown); font-family: Geor
 .game-guide {
     margin-top: var(--space-sm);
 }
+@media (42rem <= width < 64rem) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+    }
+}
